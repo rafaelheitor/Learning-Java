@@ -13,6 +13,7 @@ public class ConjuntoOrganizado {
 
 		listaAprovados.add("Ana");
 		listaAprovados.add("João");
+		listaAprovados.add("Felipe");
 		listaAprovados.add("Maria");
 		listaAprovados.add("Lucas");
 		listaAprovados.add("Jaime");
