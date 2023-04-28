@@ -1,11 +1,11 @@
-package stream;
+package excecao;
 
 public class Aluno {
 
 	public final String NOME;
 	public final double NOTA;
 	
-	Aluno(String nome, double nota){
+	public Aluno(String nome, double nota){
 		this.NOME = nome;
 		this.NOTA = nota;
 	}
@@ -43,5 +43,4 @@ public class Aluno {
 			return false;
 		return true;
 	}
-	
 }
