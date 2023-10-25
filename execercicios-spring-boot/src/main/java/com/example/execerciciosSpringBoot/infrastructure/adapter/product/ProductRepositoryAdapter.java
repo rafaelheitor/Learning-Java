@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 @Component
 public class ProductRepositoryAdapter implements ProductRepositoryPort {
-    private List<Product> products = new ArrayList<Product>();
+    private List<Product> products = new ArrayList<>();
     private static ProductRepositoryAdapter instance;
 
     ProductRepositoryAdapter () {
